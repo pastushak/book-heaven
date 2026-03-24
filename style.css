@@ -1,0 +1,288 @@
+/* ===== ЗАГАЛЬНІ СТИЛІ ===== */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #eaeaea;
+    font-size: 16px;
+}
+
+/* ===== ГОЛОВНА СЕКЦІЯ ===== */
+.section-main {
+    background-color: #556b2f;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-main-logo {
+    width: 160px;
+    filter: brightness(0) invert(1);
+}
+
+.section-main-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.section-main-subtitle {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.section-main-button {
+    background-color: #8fbc8f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    letter-spacing: 1px;
+}
+
+.section-main-button:hover {
+    background-color: #6a9a6a;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+/* ===== СПІЛЬНІ СТИЛІ ЗАГОЛОВКІВ ===== */
+.section-subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8fbc8f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #556b2f;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+}
+
+/* ===== ДРУГА СЕКЦІЯ ===== */
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.second-section-img {
+    width: 500px;
+    border: 5px solid #556b2f;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.second-section-info {
+    margin-left: 30px;
+    max-width: 600px;
+}
+
+.second-section-text {
+    margin: 30px 0;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.second-section-name {
+    color: #556b2f;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.second-section-name2 {
+    color: #8fbc8f;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ===== ТРЕТЯ СЕКЦІЯ ===== */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.third-section-books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.third-section-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px 16px;
+    box-shadow: 0 2px 12px rgba(85, 107, 47, 0.10);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 180px;
+}
+
+.third-section-book:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(85, 107, 47, 0.18);
+}
+
+.book-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.book-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #556b2f;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.book-author {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.book-price {
+    margin: 0;
+    color: #8fbc8f;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ===== ФУТЕР ===== */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f4f4f;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-text {
+    width: 600px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #8fbc8f;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer-text-main {
+    color: #fff;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: #2f4f4f;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input::placeholder {
+    color: #8fbc8f;
+    opacity: 0.7;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #8fbc8f;
+    box-shadow: 0 0 0 2px rgba(143, 188, 143, 0.25);
+}
+
+.footer-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #8fbc8f;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.footer-button:hover {
+    background-color: #6a9a6a;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
